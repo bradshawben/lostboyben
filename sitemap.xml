@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://bradshawben.github.io/lostboyben/markdown/2020/01/14/test-markdown-post.html</loc>
-<lastmod>2020-01-14T00:00:00-06:00</lastmod>
+<loc>https://bradshawben.github.io/lostboyben/family/2020/01/19/oma.html</loc>
+<lastmod>2020-01-19T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://bradshawben.github.io/lostboyben/jupyter/2020/02/20/test.html</loc>
-<lastmod>2020-02-20T00:00:00-06:00</lastmod>
+<loc>https://bradshawben.github.io/lostboyben/adventure/2020/01/27/colorado-trip.html</loc>
+<lastmod>2020-01-27T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://bradshawben.github.io/lostboyben/2020/02/07/Karplus-Strong.html</loc>
+<lastmod>2020-02-07T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://bradshawben.github.io/lostboyben/adventure/2020/02/09/coldsprings.html</loc>
+<lastmod>2020-02-09T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://bradshawben.github.io/lostboyben/about/</loc>
