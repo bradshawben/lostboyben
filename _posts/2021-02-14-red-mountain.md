@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: Touring the ten mile
 categories: [adventure]
-title: Red mountain Valentine's
+title: Red Mountain Valentine's
 ---
 
 # Pennsylvania Creek - Red Mountain Tour
