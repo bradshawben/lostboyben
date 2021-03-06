@@ -1,6 +1,6 @@
 ---
 keywords: fastai
-description: Newton's Method and Sierpinki Triangles
+description: Newton's Method and Sierpinski Triangles
 title: Julia-- First take
 toc: True
 nb_path: _notebooks/2021-03-05-Julia-First-Take.ipynb
@@ -216,7 +216,7 @@ M2170.35 323.864 L2199.55 323.864 L2199.55 321.625 L2170.35 321.625  Z
 <ul>
 <li>Set $x_{0} = g$ where g is some initial guess</li>
 <li>Set $x_{n} = x_{n-1} - \frac{f(x_{n-1})}{f'(x_{n-1})}$</li>
-<li>Continue until until $f(x_{n}) &lt; \epsilon$, where $\epsilon$ is the desired tolerance level (note this convergence criteria may not be sufficient for arbitrary functions, but suffices for this example)</li>
+<li>Continue until $f(x_{n}) &lt; \epsilon$, where $\epsilon$ is the desired tolerance level (note this convergence criteria may not be sufficient for arbitrary functions, but suffices for this example)</li>
 </ul>
 <p>The $f'$ portion of the algorithm presents an interesting challenge when implementing this in a language like python where most objects are not differentiable. In Julia, however, most objects <em>are differentiable</em>, so you get a trivial implementation using the <code>ForwardDiff</code> package. Also note in the implementation below- we are using arbitrary unicode characters! This definitely makes it feel like you are coding in math.</p>
 
