@@ -8,15 +8,15 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Julia– First take" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Newton’s Method and Sierpinki Triangles" />
-<meta property="og:description" content="Newton’s Method and Sierpinki Triangles" />
+<meta name="description" content="Newton’s Method and Sierpinski Triangles" />
+<meta property="og:description" content="Newton’s Method and Sierpinski Triangles" />
 <link rel="canonical" href="https://bradshawben.github.io/lostboyben/2021/03/05/Julia-First-Take.html" />
 <meta property="og:url" content="https://bradshawben.github.io/lostboyben/2021/03/05/Julia-First-Take.html" />
 <meta property="og:site_name" content="lostboyben" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-03-05T00:00:00-06:00" />
 <script type="application/ld+json">
-{"url":"https://bradshawben.github.io/lostboyben/2021/03/05/Julia-First-Take.html","@type":"BlogPosting","headline":"Julia– First take","dateModified":"2021-03-05T00:00:00-06:00","datePublished":"2021-03-05T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://bradshawben.github.io/lostboyben/2021/03/05/Julia-First-Take.html"},"description":"Newton’s Method and Sierpinki Triangles","@context":"https://schema.org"}</script>
+{"url":"https://bradshawben.github.io/lostboyben/2021/03/05/Julia-First-Take.html","@type":"BlogPosting","headline":"Julia– First take","dateModified":"2021-03-05T00:00:00-06:00","datePublished":"2021-03-05T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://bradshawben.github.io/lostboyben/2021/03/05/Julia-First-Take.html"},"description":"Newton’s Method and Sierpinski Triangles","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/lostboyben/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bradshawben.github.io/lostboyben/feed.xml" title="lostboyben" /><link rel="shortcut icon" type="image/x-icon" href="/lostboyben/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,7 +87,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Julia-- First take</h1><p class="page-description">Newton's Method and Sierpinki Triangles</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-03-05T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Julia-- First take</h1><p class="page-description">Newton's Method and Sierpinski Triangles</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-03-05T00:00:00-06:00" itemprop="datePublished">
         Mar 5, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -347,7 +347,7 @@ M2170.35 323.864 L2199.55 323.864 L2199.55 321.625 L2170.35 321.625  Z
 <ul>
 <li>Set $x_{0} = g$ where g is some initial guess</li>
 <li>Set $x_{n} = x_{n-1} - \frac{f(x_{n-1})}{f'(x_{n-1})}$</li>
-<li>Continue until until $f(x_{n}) &lt; \epsilon$, where $\epsilon$ is the desired tolerance level (note this convergence criteria may not be sufficient for arbitrary functions, but suffices for this example)</li>
+<li>Continue until $f(x_{n}) &lt; \epsilon$, where $\epsilon$ is the desired tolerance level (note this convergence criteria may not be sufficient for arbitrary functions, but suffices for this example)</li>
 </ul>
 <p>The $f'$ portion of the algorithm presents an interesting challenge when implementing this in a language like python where most objects are not differentiable. In Julia, however, most objects <em>are differentiable</em>, so you get a trivial implementation using the <code>ForwardDiff</code> package. Also note in the implementation below- we are using arbitrary unicode characters! This definitely makes it feel like you are coding in math.</p>
 
