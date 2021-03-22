@@ -1,1 +1,1 @@
-Sitemap: https://bradshawben.github.io/lostboyben/sitemap.xml
+Sitemap: https://benbradshaw.io/lostboyben/sitemap.xml
