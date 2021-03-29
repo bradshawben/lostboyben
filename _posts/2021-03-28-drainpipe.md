@@ -8,7 +8,7 @@ title: Drainpipe dreamin'
 
 # Drainpipe Dreamin'
 
-The "drainpipe" as it's colloquially known is a cherry line off the summit of Mount Parnassus. When Luke and I first moved to Colorado six years ago and discovered Ruby Creek Gulch on the back side of Parnassus we were blown away by the asthetic line that flanks the mountain's northern slopes, we unromantically nicknamed it "Toilet Bowl Bowl Couloir". It's a curvy, steep, relatively narrow couloir adorned on both sides by gorgeous reddish granite. It's truly a beautiful. The stars never seemed to align on getting the send- stability, timing, and conditions just always seemed to get in the way. Add in a 3 year hiatus while I was out in California playing in the ocean and those six years flew by, but that beautiful veiled line always stuck with me.
+The "drainpipe" as it's colloquially known is a cherry line off the summit of Mount Parnassus. When Luke and I first moved to Colorado six years ago and discovered Ruby Creek Gulch on the back side of Parnassus we were blown away by the asthetic line that flanks the mountain's northern slopes, we unromantically nicknamed it "Toilet Bowl Couloir". It's a curvy, steep, relatively narrow couloir adorned on both sides by gorgeous reddish granite. The stars never seemed to align on getting the send- stability, timing, and conditions just always seemed to get in the way. Add in a 3 year hiatus while I was out in California playing in the ocean and those six years flew by, but that beautiful veiled line always stuck with me.
 
 # The stars align
 
